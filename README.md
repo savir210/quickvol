@@ -1,7 +1,7 @@
 # quickvol
 Shell script that automatically runs 26+ volatility modules on multiple memory images
 
-Quickvol v1.1 is a script that will select .mem,.bin, or .img files and attempt to run them through some common volatility plugins. 
+Quickvol v1.1 is a script that will select .mem,.bin, or .img files and attempt to run them through some common volatility plugins. I've only tested this on Ubuntu 14.10, so guarantees of functionality will end there.
 It will create seperate working directories for each memory image, so it works best if all of the memory files were appropriately named, and stored in one folder. 
 First, you will need to define what folder the memory files are located in.  You can do this with the following quickvol -f /path/to/memory/folder. 
 This should start the script, and its fist action would be to confirm that it has the correct /path/to/folder.
