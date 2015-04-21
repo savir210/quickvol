@@ -9,7 +9,9 @@ It will create seperate working directories for each memory image, so it works b
 
 appropriately named, and stored in one folder. 
 
-First, you will need to define what folder the memory files are located in.  You can do this with the following quickvol -f /path/to/memory/folder. 
+First, you will need to define what folder the memory files are located in.  You can do this with the following 
+
+quickvol -f /path/to/memory/folder. 
 
 This should start the script, and its fist action would be to confirm that it has the correct /path/to/folder.
 
